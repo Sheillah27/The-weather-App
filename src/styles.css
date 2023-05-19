@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  background-image: url("https://img.freepik.com/free-vector/realistic-blue-sky-background_1048-6707.jpg?w=740&t=st=1684523850~exp=1684524450~hmac=015764b06b6ced1ac15e9e267307d285ce7c88ef90892d1150ab61623ddcdfd2");
+}
+h1 {
+  font-size: 24px;
+  color: #0a0a0a;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  color: #0a0a0a;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+.app-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.weather-app {
+  background-image: url("https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-2381.jpg?w=1060&t=st=1684524250~exp=1684524850~hmac=d519b29bb93b3f2020352df2b6aebb2fc873e1788f709d72d268e7b32d19ebd8");
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.display {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#temp {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+}
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+#celsius-link {
+  text-decoration: none;
+}
+#fahrenheit-link {
+  text-decoration: none;
+}
